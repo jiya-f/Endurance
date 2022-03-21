@@ -24,11 +24,14 @@ header,section,footer{
     font-family: 'Gotham', sans-serif;
     font-weight: 500;
     font-size: 15px;
-    align-items: center;
+    align-items: flex-end;
 }
 .top-bar a {
     color: #fff;
-    margin-right: 20px;
+    margin-right: 45px;
+}
+.top-bar .fa-plus {
+    color: #d50808;
 }
 .main-menu{
     /* background-color: lightblue; */
@@ -53,12 +56,18 @@ nav ul li a{
     color: #565862;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Gotham Ultra', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
+    transition: color .5s ease-in;
+}
+nav ul li a:hover{
+    color: #fff;
 }
 .top-banner{
-    border-bottom: 3px solid lightgreen;    
+    background-image: url(../img/HOMEPAGE-BANNER.png);
+    background-size: contain;
+    background-position: center;
     height: 400px;
 }
 .main .container-grid {
@@ -66,12 +75,12 @@ nav ul li a{
     grid-template-columns: 2fr 1fr;
 }
 .container-grid .col-8{
-height: 1000px;
-background-color: lightseagreen;
+    height: 1000px;
+    background-color: lightseagreen;
 }
 .container-grid .col-4{
-height: 1000px;
-background-color: lightslategray;
+    height: 1000px;
+    background-color: lightslategray;
 }
 footer{
     background-color: lightsalmon;
