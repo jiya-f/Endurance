@@ -76,11 +76,41 @@ nav ul li a:hover{
 }
 .container-grid .col-8{
     height: 1000px;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
 }
 .container-grid .col-4{
     height: 1000px;
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
+}
+.fitness-diet{
+    background-image: url(../img/FITNESS-DIET.png);
+    height: 280px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale();
+    transition: all 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.fitness-diet h4{
+    font-family: 'Gotham Black';
+    color: #fff;
+    font-size: 25px;
+  }
+.fitness-diet:hover{
+    filter: none;
+}
+.social-icons{
+    display: flex;
+    gap: 10px;   
+    justify-content: center;
+    color: #d50808; 
+}
+.social-icons i{
+  font-size: 250px;
 }
 footer{
     background-color: lightsalmon;
