@@ -82,11 +82,11 @@ nav ul li a:hover{
     grid-template-columns: 2fr 1fr;
 }
 .container-grid .col-8{
-    height: 1000px;
+    height: auto;
     background-color: lightseagreen;
 }
 .container-grid .col-4{
-    height: 1000px;
+    height: auto;
     /* background-color: lightslategray; */
 }
 .fitness-diet{
@@ -156,12 +156,25 @@ nav ul li a:hover{
     font-family: var(--f-gb);
     color: var(--red);
     font-size: 25px;
+    padding: 0 0 15px 20px;
+    letter-spacing: .5px;
+    font-style: italic;
 }
-.products img{
-    /* height: 280px; */
-    /* display: flex; */
+.product-img .col-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+.product-img .col-2 img {
+    flex: 0 0 43%;
+    filter: grayscale();
+    transition: all .5s ease;
+}
+.product-img .col-2 img:hover {
+    filter: none;
+}
+
 footer{
-    background-color: rgba(0, 0, 0, .10);
+    background-color: rgba(55, 55, 55, .3);
     height: 400px;
 }
