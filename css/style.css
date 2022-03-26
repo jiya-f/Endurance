@@ -90,7 +90,7 @@ nav ul li a:hover{
     /* background-color: lightslategray; */
 }
 .fitness-diet{
-    background-image: url(../img/FITNESS-DIET.png);
+    background-image: url(../img/side-bar-imgs/FITNESS-DIET.png);
     height: 280px;
     width: 100%;
     background-size: cover;
@@ -103,7 +103,7 @@ nav ul li a:hover{
     align-items: center;
   }
 .fitness-diet h4{
-    font-family: 'Gotham Black';
+    font-family: var(--f-gb);
     color: #fff;
     font-size: 25px;
   }
@@ -148,7 +148,20 @@ nav ul li a:hover{
     font-family: var(--f-g);
     font-weight:400;
 }
+.products{
+    height: 280px;
+    width: 100%;
+}
+.products h4{
+    font-family: var(--f-gb);
+    color: var(--red);
+    font-size: 25px;
+}
+.products img{
+    /* height: 280px; */
+    /* display: flex; */
+}
 footer{
-    background-color: lightsalmon;
+    background-color: rgba(0, 0, 0, .10);
     height: 400px;
 }
