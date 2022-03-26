@@ -15,4 +15,11 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsum consequuntur dolores porro laborio sam iusto eius amet debitis ducimus! Delectus!</p>
         <a href="#"> Read More </a>
     </div>
+    <div class="products">
+        <h4>OUR PRODUCTS</h4>
+        <div class="product-img">
+            <img src="../img/side-bar-imgs/PRODUCT-1.jpg" alt="">
+            <img src="../img/side-bar-imgs/PRODUCT-2.jpg" alt="">
+        </div>
+    </div>
 </div>
