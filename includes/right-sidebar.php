@@ -18,8 +18,10 @@
     <div class="products">
         <h4>OUR PRODUCTS</h4>
         <div class="product-img">
-            <img src="../img/side-bar-imgs/PRODUCT-1.jpg" alt="">
-            <img src="../img/side-bar-imgs/PRODUCT-2.jpg" alt="">
+            <div class="col-2">
+                <img src="img/side-bar-imgs/PRODUCT-1.jpg" alt="">
+                <img src="img/side-bar-imgs/PRODUCT-2.jpg" alt="">
+            </div>
         </div>
     </div>
 </div>
