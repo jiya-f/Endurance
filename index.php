@@ -13,9 +13,6 @@
         </div>
     </section>
     <!-- Main Section-->
-    <!-- footer -->
-    <footer></footer>
-    <!-- footer -->
-    
+    <?php include 'includes/footer.php'?>
 </body>
 </html>
