@@ -235,6 +235,9 @@ footer .col-4 h4 span{
     font-weight: 500;
     transition: color .5s ease-in;
 }
+.links-footer ul li a:hover{
+    color: var(--white);
+}
 .col-4 .end-intro{
     padding-left: 20px;
     display: flex;
@@ -251,89 +254,101 @@ footer .col-4 h4 span{
     color: var(--white);
     padding-block: 20px;
   }
-.col-4 .end-intro .f-icons{
-    /* padding-top: 30px; */
-}
 .f-icons i{
     font-size: 20px;
     color: var(--grey);
     padding-right: 10px;
 }
-/* home-intro */
+
+
+/* main content start*/
 .col-8 .home-intro{
     height: 250px;
     display: flex;
-    justify-content: space-around;
-    padding-left: 20px;
     flex-direction: column;
+    justify-content:space-around;
+    padding-left: 10px;
+    /* background-color: lightblue; */
 }
 .col-8 .home-intro h4,
 .col-8 .our-services h4{
-    font-size: 32px;
     font-family: 'Gotham';
-    font-weight: 700;
     font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
     color: var(--grey);
     padding-left: 8px;
 }
 .col-8 .home-intro p{
-    color: var(--white);
     font-family: var(--f-g);
+    font-size: 16px;
+    color: var(--white);
     text-align: justify;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 .col-8 .home-intro a{
-    color: var(--red);
     font-family: var(--f-g);
+    font-size: 14px;
+    color: var(--red);
 }
-/* our-services */
 .col-8 .our-services{
-    
+    height: 380px;
+    /* background-color: lightcoral; */
 }
 .col-8 .our-services h4 {
-    padding: 10px 0 10px 20px;
+    padding-block: 10px;
+    padding-left: 20px;
   }
+
 .col-8 .our-services .service-imgs{
-    display: flex;
-    justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
-/* banner */
 .col-8 .t-banner{
-    background-image: url(../img/trainers/TRAINER.jpg);
+    height: 250px;
+    /* background-color: lightgray; */
+    background-image: url(../img/t-banner/TRAINER.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 250px;
-    margin-block: 20px;
+    background-size: cover; 
 }
-/* our-plans */
 .col-8 .our-plans{
-    display: flex;
     height: 250px;
+    /* background-color: lightsalmon; */
+    display: flex;
+    margin-top: 20px;
 }
 .col-8 .our-plans .plan-img{
-    width: 40%;
     background-image: url(../img/plans/PLANS.jpg);
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
     height: 100%;
+    width: 40%;
 }
 .col-8 .our-plans .plan-content{
-    width: 60%;
-    background-color: var(--red);
     height: 100%;
+    background-color:var(--red);
+    width: 60%;
     display: flex;
     flex-direction: column;
-    padding: 30px;
     justify-content: space-evenly;
+    padding: 10px;
     color: var(--white);
-    font-family: var(--f-g);
 }
 .col-8 .our-plans .plan-content :is(h3,h4){
     font-family: var(--f-gb);
 }
-.col-8 .our-plans .plan-content a{
+.col-8 .our-plans .plan-content :is(p,a){
+    font-family: var(--f-g);
     color: var(--white);
 }
-.col-8 .our-plans .plan-content span{
-    color: #000;
+.col-8 .our-plans .plan-content h3 span{
+    color: black;
+    letter-spacing: 1px;
 }
+
+/* main content start*/
+
+
+
