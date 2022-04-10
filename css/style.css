@@ -1,4 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/gotham');
+@import url('https://fonts.cdnfonts.com/css/gotham');
 
 *{
     box-sizing: border-box;
@@ -304,6 +304,12 @@ footer .col-4 h4 span{
 display: flex;
 justify-content: space-around;
 }
+/* .col-8 .our-services .service-imgs .service img:last-child{
+    display: none;
+} */
+.active {display: block !important;}
+
+
 .col-8 .t-banner{
     height: 250px;
     /* background-color: lightgray; */

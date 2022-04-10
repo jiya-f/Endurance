@@ -18,10 +18,22 @@
                 <div class="our-services">
                     <h4>OUR SERVICES</h4>
                     <div class="service-imgs">
-                        <img src="img/our-services/FITNESS-B.jpg" alt="">
-                        <img src="img/our-services/WEIGHTS-B.jpg" alt="">
-                        <img src="img/our-services/YOGA-B.jpg" alt="">
-                        <img src="img/our-services/FITNESS-B.jpg" alt="">
+                        <div class="service">
+                            <img class="img-1" src="img/our-services/FITNESS-B.jpg" alt="">
+                            <img class="img-2" src="img/our-services/FITNESS.jpg" alt="">
+                        </div>
+                        <div class="service">
+                            <img class="img-1" src="img/our-services/WEIGHTS-B.jpg" alt="">
+                            <img class="img-2" src="img/our-services/WEIGHTS.jpg" alt="">
+                        </div>
+                        <div class="service">
+                            <img class="img-1" src="img/our-services/YOGA-B.jpg" alt="">
+                            <img class="img-2" src="img/our-services/YOGA.jpg" alt="">
+                        </div>
+                        <div class="service">
+                            <img class="img-1" src="img/our-services/WEIGHTS-B.jpg" alt="">
+                            <img class="img-2" src="img/our-services/WEIGHTS.jpg" alt="">
+                        </div>
                     </div>
                 </div>
                 <!-- our-services -->
@@ -47,5 +59,19 @@
     </section>
     <!-- Main Section-->
     <?php include 'includes/footer.php'?>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.service img:last-child').hide();
+            $('.service').mouseover(function(){
+                $(this).children('img.img-1').css('display','none');
+                $(this).children('img.img-2').addClass('active');
+            });
+            $('.service').mouseleave(function(){
+                $(this).children('img.img-1').css('display','block');
+                $(this).children('img.img-2').removeClass('active');
+            });
+        });
+    </script>
 </body>
 </html>
