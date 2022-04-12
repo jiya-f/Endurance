@@ -12,7 +12,7 @@
     <div class="book-now">
         <h5>COVID-19 <span>SPECIAL TRAINING</span> PROGRAM</h5>
         <h4>GET <span>YOUR SLOT</span> NOW</h4>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsum consequuntur dolores porro laborio sam iusto eius amet debitis ducimus! Delectus!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsum consequuntur dolores porro laborio sam iusto eius amet debitis ducimus! Delectus!sam iusto eius amet debitis ducimus! Delectus!</p>
         <a href="#"> READ MORE </a>
     </div>
     <div class="products">
