@@ -1,4 +1,16 @@
-@import url('https://fonts.cdnfonts.com/css/gotham');
+@font-face {
+    font-family: 'Gotham-Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/GothamBold.woff) format('woff');
+    }
+    @font-face {
+    font-family: 'Gotham-Bold-Italic';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/GothamBoldItalic.woff) format('woff');
+    }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,8 +24,14 @@
     --grey:#565862;
     --red:#d50808;
     --white:#fff;
-    --f-g:'Gotham', sans-serif;
-    --f-gb: 'Gotham Black', sans-serif;
+    --f-gbi:'Gotham-Bold-Italic';
+    --f-gb: 'Gotham-Bold';
+    --f-r:'Raleway', sans-serif;
+    --fw-300:300;
+    --fw-400:400;
+    --fw-500:500;
+    --fw-700:700;
+    --fw-800:800;
 }
 body{
     background-color: black;
@@ -63,9 +81,9 @@ nav ul li a{
     color: #565862;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: 'Gotham', sans-serif;
+    font-family: var(--f-r);
     font-size: 18px;
-    font-weight: 500;
+    font-weight: var(--fw-800);
     transition: color .5s ease-in;
 }
 nav ul li a:hover{
@@ -77,12 +95,17 @@ nav ul li a:hover{
     background-position: center;
     height: 400px;
 }
+/* banner for all pages */
+.top-banner.aboutus{
+    background-image: url();
+}
 .main .container-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 .container-grid .col-8{
     height: auto;
+    padding-inline: 20px;
     /* background-color: lightseagreen; */
 }
 .container-grid .col-4{
@@ -101,10 +124,12 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
   }
 .fitness-diet h4{
-    font-family: var(--f-gb);
+    font-family: var(--f-r);
     color: #fff;
+    font-weight: 800;
     font-size: 25px;
   }
 .fitness-diet:hover{
@@ -117,14 +142,15 @@ nav ul li a:hover{
 }
 .social-icons i{
   font-size: 250px;
-  color: #565862;
+  color: var(--red);
 }
 .book-now{
     padding: 15px 20px;
 }
 .book-now :is(h4,h5){
-    font-family: var(--f-gb);
+    font-family: var(--f-r);
     /* font-size: 20px; */
+    font-weight: 700;
     color:#fff;
 }
 .book-now h5 {
@@ -138,14 +164,14 @@ nav ul li a:hover{
 }
 .book-now p{
     color: var(--white);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-right: 20px;
-    font-family: var(--f-g);
+    font-family: var(--f-r);
 }
 .book-now a{
     color: var(--red);
     margin-bottom: 15px;
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-weight:400;
 }
 .products{
@@ -153,12 +179,13 @@ nav ul li a:hover{
     width: 100%;
 }
 .products h4{
-    font-family: var(--f-gb);
+    font-family: var(--f-r);
     color: var(--red);
     font-size: 25px;
     padding: 0 0 15px 20px;
     letter-spacing: .5px;
     font-style: italic;
+    font-weight: 800;
 }
 .product-img .col-2 {
     display: flex;
@@ -193,7 +220,7 @@ footer .col-4 .map{
     padding-left: 10px;
 }
 footer .col-4 h4{
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-size: 25px;
     letter-spacing: .5px;
     color: var(--white);
@@ -203,7 +230,7 @@ footer .col-4 h4{
 }
 footer .col-4 h4 span{
     color: var(--red);
-    font-weight: 600;
+    font-weight: 800;
 }
   .contact .contact-info {
     padding-inline: 20px;
@@ -212,12 +239,12 @@ footer .col-4 h4 span{
     padding-bottom: 20px;
   }
 .contact .contact-info p {
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-size: 18px;
     color: var(--white);
   }
 .contact .contact-info > h3 a{
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-size: 12px;
     color: var(--red);
 }
@@ -250,14 +277,18 @@ footer .col-4 h4 span{
 }
 .col.end-intro p {
     font-size: 15px;
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     color: var(--white);
     padding-block: 20px;
   }
 .f-icons i{
-    font-size: 20px;
+    font-size: 35px;
     color: var(--grey);
-    padding-right: 10px;
+    padding-right: 15px;
+    transition: all 1s ease;
+}
+.f-icons i:hover{
+    color: var(--white);
 }
 
 
@@ -270,24 +301,24 @@ footer .col-4 h4 span{
     padding-left: 10px;
     /* background-color: lightblue; */
 }
-.col-8 .home-intro h4,
-.col-8 .our-services h4{
-    font-family: 'Gotham';
-    font-style: italic;
-    font-weight: 700;
+.heading-grey{
+    font-family: var(--f-gbi);
+    /* font-style: italic;
+    font-weight: var(--fw-700); */
     font-size: 32px;
     color: var(--grey);
-    padding-left: 8px;
+    padding-left: 20px;
+    padding-block: 10px;
 }
 .col-8 .home-intro p{
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-size: 16px;
     color: var(--white);
     text-align: justify;
     padding-right: 20px;
 }
 .col-8 .home-intro a{
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     font-size: 14px;
     color: var(--red);
 }
@@ -295,14 +326,10 @@ footer .col-4 h4 span{
     height: 380px;
     /* background-color: lightcoral; */
 }
-.col-8 .our-services h4 {
-    padding-block: 10px;
-    padding-left: 20px;
-  }
 
 .col-8 .our-services .service-imgs{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 }
 /* .col-8 .our-services .service-imgs .service img:last-child{
     display: none;
@@ -319,10 +346,15 @@ justify-content: space-around;
     background-size: cover; 
 }
 .col-8 .our-plans{
-    height: 250px;
+    height: 300px;
     /* background-color: lightsalmon; */
     display: flex;
     margin-top: 20px;
+    flex-direction: column;
+}
+.col-8 .our-plans .plans{
+    display: flex;
+    height: 250px;
 }
 .col-8 .our-plans .plan-img{
     background-image: url(../img/plans/PLANS.jpg);
@@ -343,10 +375,10 @@ justify-content: space-around;
     color: var(--white);
 }
 .col-8 .our-plans .plan-content :is(h3,h4){
-    font-family: var(--f-gb);
+    font-family: var(--f-r);
 }
 .col-8 .our-plans .plan-content :is(p,a){
-    font-family: var(--f-g);
+    font-family: var(--f-r);
     color: var(--white);
 }
 .col-8 .our-plans .plan-content h3 span{
