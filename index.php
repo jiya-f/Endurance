@@ -51,7 +51,7 @@
                         <div class="plan-img"></div>
                         <div class="plan-content">
                             <h4>SUMMER SPECIAL DISCOUNT</h4>
-                            <h3>GET <span>25% OFF</span> WILL OUR NEW PLAN </h3>
+                            <h3>GET <span>25% OFF</span> WITH OUR NEW PLAN </h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut odio praesentium, fuga assumenda necessitatibus quidem temporibus dolore ab? Suscipit illum repellendus eligendi veritatis nam porro.  </p> 
                             <a href="#">READ MORE</a>
                         </div>

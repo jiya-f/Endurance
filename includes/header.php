@@ -30,7 +30,7 @@
                     <li><a href="services.php">Services</a></li>
                     <li><a href="trainers.php">Trainers</a></li>
                     <li><a href="plans.php">Plans</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="contactus.php">Contact Us</a></li>
                 </ul> 
             </nav>
         </div>

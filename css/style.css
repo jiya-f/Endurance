@@ -4,13 +4,24 @@
     font-weight: 700;
     src: url(../fonts/GothamBold.woff) format('woff');
     }
-    @font-face {
+ @font-face {
     font-family: 'Gotham-Bold-Italic';
     font-style: italic;
     font-weight: 700;
     src: url(../fonts/GothamBoldItalic.woff) format('woff');
     }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+ @font-face {
+    font-family: 'Gotham-Book';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/GothamBook.woff) format('woff');
+    }
+ @font-face {
+    font-family: 'Gotham-Book-italic';  
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/GothamBookItalic.woff) format('woff');
+    }
 
 *{
     box-sizing: border-box;
@@ -26,12 +37,8 @@
     --white:#fff;
     --f-gbi:'Gotham-Bold-Italic';
     --f-gb: 'Gotham-Bold';
+    --f-g-Book:'Gotham-Book';
     --f-r:'Raleway', sans-serif;
-    --fw-300:300;
-    --fw-400:400;
-    --fw-500:500;
-    --fw-700:700;
-    --fw-800:800;
 }
 body{
     background-color: black;
@@ -46,8 +53,7 @@ header,section,footer{
     height: 35px;
     display: flex;
     justify-content: flex-end;
-    font-family: 'Gotham', sans-serif;
-    font-weight: 500;
+    font-family: var(--f-gb);
     font-size: 15px;
     align-items: flex-end;
 }
@@ -81,24 +87,37 @@ nav ul li a{
     color: #565862;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     font-size: 18px;
-    font-weight: var(--fw-800);
     transition: color .5s ease-in;
 }
 nav ul li a:hover{
     color: #fff;
 }
 .top-banner{
-    background-image: url(../img/HOMEPAGE-BANNER.png);
+    background-image: url(../img/top-banners/HOMEPAGE-BANNER.jpg);
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     height: 400px;
 }
 /* banner for all pages */
 .top-banner.aboutus{
-    background-image: url();
+    background-image: url(../img/top-banners/ABOUT-US-BANNER.jpg);
 }
+.top-banner.services{
+    background-image: url(../img/top-banners/SERVICES-BANNER.jpg);
+}
+.top-banner.trainers{
+    background-image: url(../img/top-banners/TRAINERS-BANNER.jpg);
+}
+.top-banner.plans{
+    background-image: url(../img/top-banners/SERVICES-BANNER.jpg);
+}
+.top-banner.contactus{
+    background-image: url(../img/top-banners/CONTACT-US-BANNER.jpg);
+}
+
 .main .container-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -127,9 +146,8 @@ nav ul li a:hover{
     margin-top: 20px;
   }
 .fitness-diet h4{
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     color: #fff;
-    font-weight: 800;
     font-size: 25px;
   }
 .fitness-diet:hover{
@@ -148,9 +166,8 @@ nav ul li a:hover{
     padding: 15px 20px;
 }
 .book-now :is(h4,h5){
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     /* font-size: 20px; */
-    font-weight: 700;
     color:#fff;
 }
 .book-now h5 {
@@ -166,20 +183,19 @@ nav ul li a:hover{
     color: var(--white);
     margin-bottom: 10px;
     padding-right: 20px;
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
 }
 .book-now a{
     color: var(--red);
     margin-bottom: 15px;
-    font-family: var(--f-r);
-    font-weight:400;
+    font-family: var(--f-g-Book);
 }
 .products{
     height: 280px;
     width: 100%;
 }
 .products h4{
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     color: var(--red);
     font-size: 25px;
     padding: 0 0 15px 20px;
@@ -191,6 +207,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: -10px;
 }
 .product-img .col-2 img {
     flex: 0 0 43%;
@@ -200,10 +217,59 @@ nav ul li a:hover{
 .product-img .col-2 img:hover {
     filter: none;
 }
+/* ABOUT-US-PAGE START */
+.col-8 .aboutus-intro{
+/* background-color: beige; */
+margin-top: 20px;
+}
+.col-8 .aboutus-intro p{
+    font-family: var(--f-g-Book);
+    font-size: 16px;
+    color: var(--white);
+    text-align: justify;
+    padding: 10px 20px;
+}
+.col-8 .why-us{
+background-color: lightpink;
+}
+.col-8 .why-us .why-us-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+padding-inline: 20px;
+padding-bottom: 20px;
+}
+.why-us-grid .col{
+    height: 400px;
+    background-color: palevioletred;
+}
+.why-us-grid .col:nth-child(2){
+ background-color: cadetblue;
+}
+.col-8 .e-banner{
+   background-image: url(../img/about-us/GREAT-ENVIRNMENT.jpg); 
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 280px;
+   margin-inline: 20px;
+}
+/* ABOUT-US-PAGE END */
+
+
+
+
+
+
+
+
+
+
+
 /* Footer Work Start From Here */
 footer{
     height: 280px;
-    margin-block: 20px;
+    margin-bottom: 30px;
 }
 footer .col-4{
     display: grid;
@@ -220,7 +286,7 @@ footer .col-4 .map{
     padding-left: 10px;
 }
 footer .col-4 h4{
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     font-size: 25px;
     letter-spacing: .5px;
     color: var(--white);
@@ -239,12 +305,12 @@ footer .col-4 h4 span{
     padding-bottom: 20px;
   }
 .contact .contact-info p {
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
     font-size: 18px;
     color: var(--white);
   }
 .contact .contact-info > h3 a{
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
     font-size: 12px;
     color: var(--red);
 }
@@ -257,9 +323,8 @@ footer .col-4 h4 span{
 .links-footer ul li a{
     color: #565862;
     text-transform: uppercase;
-    font-family: 'Gotham', sans-serif;
+    font-family: var(--f-gb);
     font-size: 15px;
-    font-weight: 500;
     transition: color .5s ease-in;
 }
 .links-footer ul li a:hover{
@@ -277,7 +342,7 @@ footer .col-4 h4 span{
 }
 .col.end-intro p {
     font-size: 15px;
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
     color: var(--white);
     padding-block: 20px;
   }
@@ -303,22 +368,23 @@ footer .col-4 h4 span{
 }
 .heading-grey{
     font-family: var(--f-gbi);
-    /* font-style: italic;
-    font-weight: var(--fw-700); */
     font-size: 32px;
     color: var(--grey);
     padding-left: 20px;
     padding-block: 10px;
 }
+.col-8 .home-intro > .heading-grey{
+    padding-left: 10px;
+}
 .col-8 .home-intro p{
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
     font-size: 16px;
     color: var(--white);
     text-align: justify;
     padding-right: 20px;
 }
 .col-8 .home-intro a{
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
     font-size: 14px;
     color: var(--red);
 }
@@ -375,15 +441,16 @@ justify-content: space-between;
     color: var(--white);
 }
 .col-8 .our-plans .plan-content :is(h3,h4){
-    font-family: var(--f-r);
+    font-family: var(--f-gb);
 }
 .col-8 .our-plans .plan-content :is(p,a){
-    font-family: var(--f-r);
+    font-family: var(--f-g-Book);
     color: var(--white);
 }
 .col-8 .our-plans .plan-content h3 span{
     color: black;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
+    font-size: 30px;
 }
 
 /* main content start*/
