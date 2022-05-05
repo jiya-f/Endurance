@@ -9,15 +9,16 @@
             <div class="col-8">
                 <div class="aboutus-intro">
                     <h4 class="heading-grey">ABOUT US</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Enim fuga reprehenderit veritatis impedit numquam esse dignissimos nulla velit error autem corporis officiis reiciendis pariatur asperiores placeat ipsam, voluptas vero culpa.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Aperiam eos quas minus soluta, dolorum quo commodi architecto impedit delectus cumque voluptatum consequuntur dolore suscipit culpa quibusdam totam id temporibus dicta!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Voluptates ad maiores et adipisci quae alias repudiandae beatae molestiae labore doloremque incidunt, ullam, tempora quasi deleniti facere natus nulla reprehenderit quisquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Enim fuga reprehenderit veritatis impedit numquam esse dignissimos nulla velit error autem corporis officiis reiciendis pariatur asperiores placeat ipsam, voluptas vero culpa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Enim fuga reprehenderit veritatis impedit numquam esse dignissimos nulla velit error autem corporis officiis reiciendis pariatur asperiores placeat ipsam, voluptas vero culpa.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Aperiam eos quas minus soluta, dolorum quo commodi architecto impedit delectus cumque voluptatum consequuntur dolore suscipit culpa quibusdam totam id temporibus dicta!Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Enim fuga reprehenderit veritatis impedit numquam esse dignissimos nulla velit error autem corporis officiis reiciendis pariatur asperiores placeat ipsam, voluptas vero culpa.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Voluptates ad maiores et adipisci quae alias repudiandae beatae molestiae labore doloremque incidunt, ullam, tempora quasi deleniti facere natus nulla reprehenderit quisquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?Enim fuga reprehenderit veritatis impedit numquam esse dignissimos nulla velit error autem corporis officiis reiciendis pariatur asperiores placeat ipsam, voluptas vero culpa.</p>
+                    
                 </div>
                 <div class="why-us">
                     <h4 class="heading-grey">WHY US?</h4>
                     <div class="why-us-grid">
                         <div class="col">
-                        <i class="fas fa-whistle"></i>
+                        <i class="fas fa-award"></i>
                             <div class="content">
                                 <h5>CERTIFIED TRAINERS</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod impedit enim debitis illo cumque ab culpa eos nemo doloribus perspiciatis?</p>
