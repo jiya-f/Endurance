@@ -159,8 +159,8 @@ nav ul li a:hover{
     justify-content: center; 
 }
 .social-icons i{
-  font-size: 250px;
-  color: var(--red);
+    font-size: 250px;
+    color: var(--red);
 }
 .book-now{
     padding: 15px 20px;
@@ -220,7 +220,7 @@ nav ul li a:hover{
 /* ABOUT-US-PAGE START */
 .col-8 .aboutus-intro{
 /* background-color: beige; */
-margin-top: 20px;
+    margin-top: 20px;
 }
 .col-8 .aboutus-intro p{
     font-family: var(--f-g-Book);
@@ -230,31 +230,108 @@ margin-top: 20px;
     padding: 10px 20px;
 }
 .col-8 .why-us{
-background-color: lightpink;
+/* background-color: lightpink; */
 }
 .col-8 .why-us .why-us-grid{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 20px;
-padding-inline: 20px;
-padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
 }
 .why-us-grid .col{
     height: 400px;
-    background-color: palevioletred;
+    background-color: #30303a;
+}
+.why-us-grid .col:hover{
+    background-color: var(--red);
+}
+.why-us-grid .col:hover .content h5{
+    color: black;
+}
+.why-us-grid .col:hover i{
+    color: #fff;
 }
 .why-us-grid .col:nth-child(2){
- background-color: cadetblue;
+ /* background-color: var(--red); */
 }
+.why-us-grid .col i{
+    font-size: 145px;
+    color: #575a63;
+    padding-block: 25px;
+    display: flex;
+    justify-content: center;
+}
+.why-us-grid .col .content h5{
+    font-family: var(--f-gb);
+    font-size: 20px;
+    color: var(--red);
+    text-align: center;
+    padding: 10px 20px;
+}
+.why-us-grid .col .content p{
+    font-family: var(--f-g-Book);
+    font-size: 16px;
+    color: var(--white);
+    text-align: left;
+    padding: 10px 20px;
+
+}
+
 .col-8 .e-banner{
-   background-image: url(../img/about-us/GREAT-ENVIRNMENT.jpg); 
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
-   height: 280px;
-   margin-inline: 20px;
+    background-image: url(../img/about-us/GREAT-ENVIRNMENT.jpg); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px;
+    margin-inline: 20px;
 }
 /* ABOUT-US-PAGE END */
+/* SERVICES PAGE START */
+.col-8 .home-intro.services{
+    justify-content: center;
+    height: 200px;
+}
+
+.col-8 .services-container{
+    display: flex;
+    gap: 20px;
+}
+.col-8 .services-content{
+    border: solid 2px #30303a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 40px;
+}
+.col-8 .services-content > :is(p,a){
+    font-family: var(--f-g-Book);
+}
+.col-8 .services-content h3{
+    text-transform: uppercase;
+    font-family: var(--f-gb);
+    font-size: 15px;
+    color: var(--white);
+}
+.col-8 .services-content .services-heading{
+    display: block;
+    color: var(--red);
+    font-family: var(--f-gb);
+    font-size: 18px;
+    padding-top: 10px;
+}
+.col-8 .services-content p{
+    color: #565863;
+}
+.col-8 .services-content a{
+    color: var(--red);
+}
+.my-25{
+    margin-block: 25px;
+}
+.reverse {
+    flex-flow: row-reverse;
+  }
 
 
 
@@ -264,7 +341,7 @@ padding-bottom: 20px;
 
 
 
-
+/* SERVICES PAGE END */
 
 /* Footer Work Start From Here */
 footer{
@@ -394,8 +471,8 @@ footer .col-4 h4 span{
 }
 
 .col-8 .our-services .service-imgs{
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 /* .col-8 .our-services .service-imgs .service img:last-child{
     display: none;
