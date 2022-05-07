@@ -24,7 +24,7 @@
                 <img src="img/ENDURANCE-LOGO.png" alt="">
             </div>
             <nav>
-                <ul>
+                <ul class="nav-links">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="aboutus.php">About Us</a></li>
                     <li><a href="services.php">Services</a></li>

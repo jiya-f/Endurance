@@ -94,6 +94,9 @@ nav ul li a{
 nav ul li a:hover{
     color: #fff;
 }
+.active-link{
+    color: #fff;
+}
 .top-banner{
     background-image: url(../img/top-banners/HOMEPAGE-BANNER.jpg);
     background-size: contain;
