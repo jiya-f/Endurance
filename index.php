@@ -66,18 +66,18 @@
     </section>
     <!-- Main Section-->
     <?php include 'includes/footer.php'?>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function(){
-            $('.service img:last-child').hide();
-            $('.service').mouseover(function(){
-                $(this).children('img.img-1').css('display','none');
-                $(this).children('img.img-2').addClass('active');
-            });
-            $('.service').mouseleave(function(){
-                $(this).children('img.img-1').css('display','block');
-                $(this).children('img.img-2').removeClass('active');
-            });
+
+            // $('.nav-links li a').click(function(e) {
+
+            // $('.nav-links li a.active-link').removeClass('active-link');
+
+            // var $parent = $(this).parent().children();
+            // console.log($parent);
+            // $parent.addClass('active-link');
+            // e.preventDefault();
+            // });
         });
     </script>
 </body>
