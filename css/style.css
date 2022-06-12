@@ -306,6 +306,7 @@ nav ul li a:hover{
     flex-direction: column;
     justify-content: space-around;
     padding: 25px 40px;
+    transition: all .5s ease;
 }
 .col-8 .services-content > :is(p,a){
     font-family: var(--f-g-Book);
@@ -329,8 +330,20 @@ nav ul li a:hover{
 .col-8 .services-content a{
     color: var(--red);
 }
+
+.col-8 .services-content:hover{
+    transform: scale(1.05);
+    background-color: var(--white);
+    border-color: var(--red);
+}
+.col-8 .services-content:hover h3{
+    color: var(--grey);
+}
 .my-25{
     margin-block: 25px;
+}
+.my-20{
+    margin-block: 20px;
 }
 .reverse {
     flex-flow: row-reverse;
@@ -351,10 +364,12 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all .5s ease-in-out;
+    cursor: default;
 }
 .why-us-grid .col img {
-    width: 180px;
-    height: 170px;
+    width: 225px;
+    height: 200px;
     /* margin-inline: 50px; */
     margin-top: 20px;
   }
@@ -365,6 +380,41 @@ nav ul li a:hover{
   }
 
 /* Trainers Page Ends */
+
+/* Contact Us Page Start */
+.home-intro.contact-us {
+    justify-content: normal !important;
+}
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registration-form {
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 65%;
+}
+.registration-form > * {
+    background-color: transparent;
+    outline: 2px solid var(--grey);
+    border: none;
+    color: var(--grey);
+    padding: 10px 0 10px 20px;
+    font-family: var(--f-gb);
+}
+.registration-form > textarea{
+    resize: none;
+}
+.btn-register{
+    cursor: pointer;
+}
+
+
+
+
+/* Contact Us Page Ends */
 
 /* Footer Work Start From Here */
 footer{
@@ -455,8 +505,6 @@ footer .col-4 h4 span{
 .f-icons i:hover{
     color: var(--white);
 }
-
-
 /* main content start*/
 .col-8 .home-intro{
     height: 250px;
@@ -492,7 +540,6 @@ footer .col-4 h4 span{
     height: 380px;
     /* background-color: lightcoral; */
 }
-
 .col-8 .our-services .service-imgs{
     display: flex;
     justify-content: space-between;
@@ -501,8 +548,6 @@ footer .col-4 h4 span{
     display: none;
 } */
 .active {display: block !important;}
-
-
 .col-8 .t-banner{
     height: 250px;
     /* background-color: lightgray; */
@@ -510,6 +555,10 @@ footer .col-4 h4 span{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
+}
+/* our-plan page start here */
+.mt-20{
+    margin-top: 20px;
 }
 .col-8 .our-plans{
     height: 300px;
