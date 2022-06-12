@@ -347,12 +347,18 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  outline: 1px solid #d50808;
-  box-shadow: 0 0 4px 6px #d50808;
+  outline: 2px solid var(--grey);
+  /* box-shadow: 0 0 4px 6px #d50808; */
   min-height: 180px;
+  margin-inline: 20px;
 }
 .main-feedback h2 {
 	color: #fff;
 	font-family: var(--f-gb);
 	letter-spacing: 0.1rem;
+}
+.contact-page .main-feedback{
+width: 65%;
+margin-inline: auto;
+margin-top: 20px;
 }

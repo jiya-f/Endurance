@@ -567,6 +567,9 @@ footer .col-4 h4 span{
     margin-top: 20px;
     flex-direction: column;
 }
+.col-8 .our-plans p:last-child {
+	padding-top: 20px;
+}
 .col-8 .our-plans .plans{
     display: flex;
     height: 250px;

@@ -10,6 +10,7 @@
             <div class="home-intro our-plans my-20">
                     <h4 class="heading-grey">REGISTRATION PLANS</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis quiexplicabo quia!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis quiexplicabo quia!</p>
                 </div>
                 <!-- our-plans -->
                 <div class="our-plans">
