@@ -8,7 +8,7 @@
         <div class="container-grid">
             <div class="col-8">
                 <!-- home-intro -->
-                <div class="home-intro services">
+                <div class="home-intro services my-20">
                     <h4 class="heading-grey">OUR SERVICES</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis quiexplicabo quia!</p>
                 </div>
