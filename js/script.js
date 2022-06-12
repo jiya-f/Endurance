@@ -32,4 +32,12 @@ $(document).ready(function(){
     //     })
     // };
     // switchNavMenuItem($('.nav-links li a'));
+
+    document.querySelectorAll('.feedback li').forEach(entry => entry.addEventListener('click', e => {
+        if(!entry.classList.contains('activee')) {
+            document.querySelector('.feedback li.activee').classList.remove('activee');
+            entry.classList.add('activee');
+        }
+        e.preventDefault();
+    }));
 });
