@@ -88,17 +88,17 @@
     stroke-dasharray: 4.55;
     stroke-dashoffset: 8.15;
   }
-  .feedback li.angry.active {
+  .feedback li.angry.activee {
     -webkit-animation: angry 1s linear;
             animation: angry 1s linear;
   }
-  .feedback li.angry.active div:before {
+  .feedback li.angry.activee div:before {
     --middle-y: -2px;
     --middle-r: 22deg;
     -webkit-animation: toggle 0.8s linear forwards;
             animation: toggle 0.8s linear forwards;
   }
-  .feedback li.angry.active div:after {
+  .feedback li.angry.activee div:after {
     --middle-y: 1px;
     --middle-r: -18deg;
     -webkit-animation: toggle 0.8s linear forwards;
@@ -129,7 +129,7 @@
     stroke-dasharray: 9.5;
     stroke-dashoffset: 33.25;
   }
-  .feedback li.sad.active div:before, .feedback li.sad.active div:after {
+  .feedback li.sad.activee div:before, .feedback li.sad.activee div:after {
     -webkit-animation: tear 0.6s linear forwards;
             animation: tear 0.6s linear forwards;
   }
@@ -157,12 +157,12 @@
     --br: 1px;
     --b: var(--m, var(--normal-mouth));
   }
-  .feedback li.ok.active div:before {
+  .feedback li.ok.activee div:before {
     --middle-s-y: .35;
     -webkit-animation: toggle 0.2s linear forwards;
             animation: toggle 0.2s linear forwards;
   }
-  .feedback li.ok.active div:after {
+  .feedback li.ok.activee div:after {
     --middle-s-x: .5;
     -webkit-animation: toggle 0.7s linear forwards;
             animation: toggle 0.7s linear forwards;
@@ -199,7 +199,7 @@
     stroke-dasharray: 13.3;
     stroke-dashoffset: 23.75;
   }
-  .feedback li.good.active div svg.mouth {
+  .feedback li.good.activee div svg.mouth {
     --middle-y: 1px;
     --middle-s: -1;
     -webkit-animation: toggle 0.8s linear forwards;
@@ -226,25 +226,25 @@
     --t: 14px;
     --sc: -1;
   }
-  .feedback li.happy.active div:after {
+  .feedback li.happy.activee div:after {
     --middle-s-x: .95;
     --middle-s-y: .75;
     -webkit-animation: toggle 0.8s linear forwards;
             animation: toggle 0.8s linear forwards;
   }
-  .feedback li:not(.active) {
+  .feedback li:not(.activee) {
     cursor: pointer;
   }
-  .feedback li:not(.active):active {
+  .feedback li:not(.activee):active {
     transform: scale(0.925);
   }
-  .feedback li.active {
+  .feedback li.activee {
     --sb: var(--active);
     --sh: var(--active-shadow);
     --m: var(--active-mouth);
     --e: var(--active-eye);
   }
-  .feedback li.active div {
+  .feedback li.activee div {
     -webkit-animation: shake 0.8s linear forwards;
             animation: shake 0.8s linear forwards;
   }
@@ -341,3 +341,18 @@
   *:before, *:after {
     box-sizing: inherit;
   }
+
+.main-feedback{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  outline: 1px solid #d50808;
+  box-shadow: 0 0 4px 6px #d50808;
+  min-height: 180px;
+}
+.main-feedback h2 {
+	color: #fff;
+	font-family: var(--f-gb);
+	letter-spacing: 0.1rem;
+}

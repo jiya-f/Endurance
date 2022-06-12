@@ -54,10 +54,8 @@
                 </div>
                 <!-- plans-card -->
 
-
-
-
-
+                <!-- Feedback-Icons -->
+                <?php include 'feedback-icons.php'?>
 
             </div>
             <!-- right-sidebar start -->

@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/feedback-icons.css">
-    <title>testing</title>
-</head>
-<body>
-    
+<div class="main-feedback">
+
+<h2>Give your Feedback</h2>
+
 <ul class="feedback">
     <li class="angry">
         <div>
@@ -39,7 +32,7 @@
     <li class="ok">
         <div></div>
     </li>
-    <li class="good active">
+    <li class="good activee">
         <div>
             <svg class="eye left">
                 <use xlink:href="#eye">
@@ -72,14 +65,4 @@
         <path d="M1,5.5 C3.66666667,2.5 6.33333333,1 9,1 C11.6666667,1 14.3333333,2.5 17,5.5"></path>
     </symbol>
 </svg>
-
-<!-- javascript start -->
-<script src=""></script>
-<script src=""></script>
-<script src=""></script>
-<script>
-
-</script>
-<!-- javascript end -->
-</body>
-</html>
+</div>
