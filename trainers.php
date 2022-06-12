@@ -7,11 +7,11 @@
         <!-- section-banner-end -->
         <div class="container-grid">
             <div class="col-8">
-            <div class="why-us">
-            <div class="home-intro services">
+               <div class="why-us">
+                 <div class="home-intro services">
                     <h4 class="heading-grey">OUR TRAINERS</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui >Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis qui>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt iste unde porro nobis magnam facilis alias, itaque amet iusto ducimus blanditiis quiexplicabo quia!</p>
-                </div>
+                 </div>
                     <div class="why-us-grid our-trainers">
                         <!-- ROW 1 STRT -->
                         <div class="col">
@@ -59,6 +59,8 @@
                         </div>
                     </div>
                 </div>
+                <!-- Feedback-Icons -->
+                <?php include 'feedback-icons.php'?>
             </div>
             <!-- right-sidebar start -->
             <?php include 'includes/right-sidebar.php'?>
